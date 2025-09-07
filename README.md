@@ -6,16 +6,10 @@ An **interactive AI-powered chatbot** with a **canvas feature for code block edi
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Demo](#demo)
 - [Features](#features)
 - [Upcoming Features](#upcoming-features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -27,13 +21,6 @@ This project combines an AI chatbot and an **interactive code editor** on a canv
 - Syntax-highlighted code blocks with multi-language support.
 
 Powered by **Vercel AI SDK** and the **Gemini model**, the chatbot offers intelligent code assistance and general conversation capabilities.
-
----
-
-## Demo
-![Chatbot Demo](./assets/demo.png)  
-*Screenshot of the chatbot interface with code block canvas editor.*
-
 ---
 
 ## Features
@@ -55,7 +42,7 @@ Powered by **Vercel AI SDK** and the **Gemini model**, the chatbot offers intell
 ---
 
 ## Tech Stack
-- **Frontend**: React.js, TypeScript, Tailwind CSS
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
 - **AI SDK**: [Vercel AI SDK](https://vercel.com/docs/ai)
 - **AI Model**: Gemini
 - **Code Editing**: Canvas-based code editor
@@ -71,7 +58,6 @@ Powered by **Vercel AI SDK** and the **Gemini model**, the chatbot offers intell
 git clone https://github.com/your-username/ai-chatbot-canvas.git
 cd ai-chatbot-canvas
 
-```bash
 npm run dev
 # or
 yarn dev
